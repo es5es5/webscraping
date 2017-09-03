@@ -1,3 +1,2 @@
 # webscraping
-Web Scraping with Python
-Good Luck ~ !
+README https://github.com/es5es5/webscraping/wiki
