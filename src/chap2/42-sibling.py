@@ -5,4 +5,3 @@ bsObj = BeautifulSoup(html, "html.parser")
 
 for sibling in bsObj.find("table", {"id": "giftList"}).tr.next_sibling:
     print(sibling)
-    
