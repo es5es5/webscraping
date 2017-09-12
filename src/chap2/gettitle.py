@@ -1,6 +1,8 @@
 from urllib.request import urlopen
 from urllib.request import HTTPError
 from bs4 import BeautifulSoup
+
+
 def getTitle(url):
     try:
         html = urlopen(url)
@@ -14,8 +16,9 @@ def getTitle(url):
     return title
 
 title = getTitle("http://www.pythonscraping.com/pages/page1.html")
-if title == None:
-    print ("Title could not be found")
+
+if title is None:
+    print("Title could not be found")
 else:
-    print (title)
+    print(title)
 
